@@ -29,8 +29,9 @@ root.render(
     <Experiences/>
     <Contact/>
     <Scroll/>
+    <Chat/>
     <Footer/>
-    {/* <Chat/> */}
+
 
 
   </React.StrictMode>

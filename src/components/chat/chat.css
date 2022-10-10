@@ -1,1 +1,25 @@
+.bi-headset{
+    color: red;
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+    
+}
+
+#btnx{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.bi-headset:hover{
+    color: grey;
+    font-size: 45px;
+    border: none;
+}
+
 
