@@ -1,0 +1,33 @@
+.bi-arrow-up-circle{
+    
+    color: black;
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+    
+}
+
+#btn{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+    box-shadow: 5px 10px;
+    /* -webkit-animation: Animate-scr  infinite 5s; */
+}
+/* @keyframes Animate-scr {
+    from {
+    height: 10%;
+  }
+  to {
+    height: 11%}
+  }
+   */
+.bi-arrow-up-circle:hover{
+    color: grey;
+    font-size: 45px;
+}
+

@@ -1,0 +1,318 @@
+#SkillBox {
+    width: 60%;
+    background-color: #dcdde1;
+    padding: 10px;
+    border-radius:20px;
+    margin-left: 30px;
+}
+
+.SkillBar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background: white;
+    margin: 20px auto;
+}
+
+
+#Skill-HTML {
+    width: 80%;
+    animation: Animate-HTML  4s;
+    -webkit-animation: Animate-HTML infinite 4s;
+    height: 50px;
+    position: absolute;
+    background-color: 
+    #e65100;
+}
+
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+
+#Skill-CSS {
+  width: 60%;
+  animation: Animate-CSS 4s;
+  -webkit-animation: Animate-CSS  infinite 4s;
+  height: 50px;
+  position: absolute;
+  background-color: 
+  #1b73ba;
+}
+@keyframes Animate-CSS {
+  from {
+  width: 10px;
+}
+to {
+  width: 60%}
+}
+
+
+#Skill-Bootstrap {
+  width: 65%;
+  animation: Animate-Bootstrap 4s;
+  -webkit-animation: Animate-Bootstrap infinite 4s;
+  height: 50px;
+  position: absolute;
+  background-color: 
+  #7211f6;
+}
+@keyframes Animate-Bootstrap {
+  from {
+  width: 10px;
+}
+to {
+  width: 65%}
+}
+
+#Skill-JS {
+  width: 70%;
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS  infinite 4s;
+
+  height: 50px;
+  position: absolute;
+  background-color:   
+  #f7e018;
+}
+@keyframes Animate-JS {
+  from {
+  width: 10px;
+}
+to {
+  width: 70%}
+}
+
+
+#Skill-React {
+    width: 40%;
+    animation: Animate-React 4s;
+    -webkit-animation: Animate-React infinite 4s;
+    height: 50px;
+    position: absolute;
+    background-color: 
+    #00d8ff;
+}
+@keyframes Animate-React {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+    
+}
+
+
+#comp {
+  padding: 60px 100px;
+  width: 100%;
+  padding-bottom: 10px;
+  min-height: 70vh;
+  background-color: #ffffff;
+}
+
+#comp .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 55px auto;
+  justify-content: space-between;
+}
+
+#comp .profile {
+  flex: 0 1 40%;
+  padding: 15px;
+}
+
+#comp .profile>img{
+  height: 380px;
+  padding: 15px;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+/* le cube */
+.cube {
+  height: 20rem;
+  perspective: 60rem;
+  width: 20rem;
+}
+
+.cube__container {
+  animation: rotationBox 20s linear infinite forwards;
+  height: 100%;
+  position: relative;
+  transform: translateZ(-10rem);
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+/* arrangement des faces */
+.cube__face {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  height: 20rem;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  width: 20rem;
+}
+
+/* la trajéctoire des cubes */
+.cube__face--front {
+  transform: rotateY(0deg) translateZ(10rem);
+}
+.cube__face--back {
+  transform: rotateY(180deg) translateZ(10rem);
+}
+.cube__face--left {
+  transform: rotateY(-90deg) translateZ(10rem);
+}
+.cube__face--right {
+  transform: rotateY(90deg) translateZ(10rem);
+}
+.cube__face--top {
+  transform: rotateX(90deg) translateZ(10rem);
+}
+.cube__face--bottom {
+  transform: rotateX(-90deg) translateZ(10rem);
+}
+
+
+
+/* pour les technos */
+.technos {
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Responsive ============================================================*/
+
+/* Tablet */
+@media only screen and (max-width: 48em) {
+  /* CSS Reset */
+
+  html {
+    font-size: 56.25%;
+  }
+
+  /* Typography */
+
+  /* Signup heading */
+  .main-heading {
+    width: 100%;
+  }
+
+  /* Layout */
+
+  .main {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  
+
+  /* Showbox cube section (on right side) */
+  .cube__section {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 22.5em) {
+  /* Typography */
+
+  /* Signup text */
+  .body-text {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  /* Layout */
+
+  /* Signup section (on left side) */
+  .signup-section {
+    height: 100%;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Container for heading, text, and button  */
+  .signup-box {
+    height: 100%;
+    padding: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  /* Showbox cube section (on right side) */
+  .cube__section {
+    height: 60vh;
+    width: 100%;
+  }
+
+  /* The cube outer container */
+  .cube {
+    height: 15rem;
+    perspective: 60rem;
+    width: 15rem;
+  }
+
+  /* The cube's inner container */
+  .cube__container {
+    transform: translateZ(-7.5rem);
+  }
+
+  /* This will target every single side of the cubes */
+  .cube__face {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  /* This will target an individual side of the cube */
+  .cube__face--front {
+    transform: rotateY(0deg) translateZ(7.5rem);
+  }
+  .cube__face--back {
+    transform: rotateY(180deg) translateZ(7.5rem);
+  }
+  .cube__face--left {
+    transform: rotateY(-90deg) translateZ(7.5rem);
+  }
+  .cube__face--right {
+    transform: rotateY(90deg) translateZ(7.5rem);
+  }
+  .cube__face--top {
+    transform: rotateX(90deg) translateZ(7.5rem);
+  }
+  .cube__face--bottom {
+    transform: rotateX(-90deg) translateZ(7.5rem);
+  }
+}
+
+/* Animation ============================================================*/
+
+@keyframes rotationBox {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  25% {
+    transform: rotate3d(0, 1, 1, 90deg);
+  }
+  50% {
+    transform: rotate3d(1, 0, 1, 180deg);
+  }
+  75% {
+    transform: rotate3d(1, 1, 0, 240deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
