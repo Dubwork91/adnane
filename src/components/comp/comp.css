@@ -14,11 +14,19 @@
     margin: 20px auto;
 }
 
-
+.spanx{
+  float: right;
+  font-size: 2.5em;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
 #Skill-HTML {
     width: 80%;
     animation: Animate-HTML  4s;
-    -webkit-animation: Animate-HTML infinite 4s;
+    -webkit-animation: Animate-HTML  4s;
     height: 50px;
     position: absolute;
     background-color: 
@@ -36,7 +44,7 @@ to {
 #Skill-CSS {
   width: 60%;
   animation: Animate-CSS 4s;
-  -webkit-animation: Animate-CSS  infinite 4s;
+  -webkit-animation: Animate-CSS   4s;
   height: 50px;
   position: absolute;
   background-color: 
@@ -54,7 +62,7 @@ to {
 #Skill-Bootstrap {
   width: 65%;
   animation: Animate-Bootstrap 4s;
-  -webkit-animation: Animate-Bootstrap infinite 4s;
+  -webkit-animation: Animate-Bootstrap  4s;
   height: 50px;
   position: absolute;
   background-color: 
@@ -69,9 +77,9 @@ to {
 }
 
 #Skill-JS {
-  width: 70%;
+  width: 60%;
   animation: Animate-JS 4s;
-  -webkit-animation: Animate-JS  infinite 4s;
+  -webkit-animation: Animate-JS   4s;
 
   height: 50px;
   position: absolute;
@@ -88,9 +96,9 @@ to {
 
 
 #Skill-React {
-    width: 40%;
+    width: 35%;
     animation: Animate-React 4s;
-    -webkit-animation: Animate-React infinite 4s;
+    -webkit-animation: Animate-React  4s;
     height: 50px;
     position: absolute;
     background-color: 
@@ -315,4 +323,10 @@ to {
   100% {
     transform: rotate3d(1, 1, 1, 360deg);
   }
+}
+
+
+
+#comp h3{
+  margin-top: 40px;
 }

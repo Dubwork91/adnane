@@ -14,8 +14,6 @@ import Experiences from "./components/experiences/experience";
 import Chat from "./components/chat/chat";
 
 
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   
@@ -31,9 +29,6 @@ root.render(
     <Scroll/>
     <Chat/>
     <Footer/>
-
-
-
   </React.StrictMode>
 );
 

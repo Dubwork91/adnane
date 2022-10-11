@@ -41,7 +41,7 @@ class Contact extends Component {
               <input class="app-form-control" placeholder="Message"/>
             </div>
             <div class="app-form-group buttons">
-              <a href="reload()"  ><button type="submit" class="app-form-button">Envoyer</button></a>
+              <a href="https://dubwork91.github.io/adnane/"  ><button type="submit" class="app-form-button">Envoyer</button></a>
               
             </div>
           </div>

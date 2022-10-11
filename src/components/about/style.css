@@ -3,7 +3,9 @@
   padding-bottom: 10px;
   min-height: 70vh;
 }
-
+#about h3{
+  margin-top: 40px;
+}
 #about h2 {
   margin: auto;
   text-align: center;

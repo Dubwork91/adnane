@@ -2,25 +2,10 @@ import React, { Component } from "react";
 import "./style.css";
 import logo from "../../assets/images/logos/adn.jpg";
 import { TypeAnimation } from "react-type-animation";
-import anime from "animejs/lib/anime.es.js";
+
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.animation = anime.timeline({ loop: false });
-  }
 
-  // componentDidMount() {
-  //   this.animation.add({
-  //     targets: "#name",
-  //     scale: [4, 1],
-  //     opacity: [0, 1],
-  //     translateZ: 0,
-  //     easing: "easeOutExpo",
-  //     duration: 950,
-  //     delay: (el, i) => 70 * i,
-  //   });
-  // }
   render() {
     return (
 
@@ -42,10 +27,6 @@ class Header extends Component {
         </div >
         <div class="stars"></div>
         <div class="clouds"></div>
-   
-        {/* <video autoplay muted loop playsInline controls preload="auto" controls class="video">
-          <source src={video} type="video/mp4" />
-        </video> */}
 
         <div id="info">
           <img className="img" src={logo} alt="Adnane" width="300px" />

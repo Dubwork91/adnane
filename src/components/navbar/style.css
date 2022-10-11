@@ -72,20 +72,3 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 
 
 
-
-/*.dark-mode {
-      background-color: black;
-      color: white;
-    }*/
-  
-  
-    .light{
-        font-size: 0.8em;
-        color: white;
-        border-color: transparent;
-    }
-    
-    .dark{
-        background-color: rgb(9, 9, 9);
-        color: white;
-    }

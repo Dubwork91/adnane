@@ -1,6 +1,5 @@
 import { Component } from "react";
 import "./comp.css";
-import com from "../../assets/images/com.jpg";
 
 import react from "../../assets/images/logos/react-logo.png";
 import html from "../../assets/images/logos/html.png";
@@ -19,8 +18,7 @@ class Comp extends Component {
           <h3 class="animate-carac" data-aos="fade-down">Compétences</h3>
           <div className="row">
             <div className="profile" data-aos="fade-right">
-
-              {/* <img src={com} alt="compétences" width="100%" /> */}
+              
               <div class="cube__section">
             <div class="cube">
                 <div class="cube__container">
@@ -56,12 +54,15 @@ class Comp extends Component {
                   
                   <div id="Skill-HTML" >
                     <img src={html} alt="React" width={"50px"} />
+                    <span class="spanx" >80%</span>
                   </div>
+                
                 </div>
 
                 <div class="SkillBar">
                   <div id="Skill-CSS">
                     <img src={css} alt="React" width={"47px"} />
+                    <span class="spanx" >60%</span>
 
                   </div>
                 </div>
@@ -69,6 +70,7 @@ class Comp extends Component {
                 <div class="SkillBar">
                   <div id="Skill-Bootstrap">
                     <img src={boot} alt="React" width={"50px"} />
+                    <span class="spanx" >65%</span>
                   </div>
                 </div>
 
@@ -76,6 +78,7 @@ class Comp extends Component {
                 <div class="SkillBar">
                   <div id="Skill-JS">
                     <img src={js} alt="React" width={"50px"} />
+                    <span class="spanx" >60%</span>
 
                   </div>
                 </div>
@@ -83,6 +86,7 @@ class Comp extends Component {
                 <div class="SkillBar">
                   <div id="Skill-React">
                     <img src={react} alt="React" width={"50px"} />
+                    <span class="spanx" >35%</span>
 
                   </div>
                 </div>

@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "../back/back.css";
 
 class Back extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
