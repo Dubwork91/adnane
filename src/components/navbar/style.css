@@ -4,11 +4,7 @@ nav {
   top: 0;
   z-index: 100;
   width: 100%;
-  
-  
 }
-
-
 
 div.container
 {
@@ -66,9 +62,5 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     width: 100%;
     transition-delay:100ms;
 }
-
-
-
-
 
 

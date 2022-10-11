@@ -1,21 +1,17 @@
 import { Component } from "react";
 import "./comp.css";
-
 import react from "../../assets/images/logos/react-logo.png";
 import html from "../../assets/images/logos/html.png";
 import css from "../../assets/images/logos/css.png";
 import boot from "../../assets/images/logos/bootstrap.png";
 import js from "../../assets/images/logos/js.png";
-
-
 class Comp extends Component {
- 
 
   render() {
     return (
       <>
         <section id="comp">
-          <h3 class="animate-carac" data-aos="fade-down">Compétences</h3>
+          <h3 class="animcar" data-aos="fade-down">Compétences</h3>
           <div className="row">
             <div className="profile" data-aos="fade-right">
               

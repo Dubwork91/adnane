@@ -1,8 +1,11 @@
+#contacts h3{
+  margin-left: 400px;
+}
+
 .animcar
    {
       text-transform: uppercase;
-      margin-left: 430px;
-      margin-top: 100px;
+
      background-image: linear-gradient(
        -225deg,
        white 0%,
@@ -46,17 +49,12 @@
     transform-origin: bottom left;
   }
 
-
-
-  
   #contme {
     padding: 25px 100px;
     padding-bottom: 10px;
     padding-top: 0px;
     min-height: 70vh;
   }
-  
-
   
   #contme .row {
     width: 100%;
@@ -68,17 +66,14 @@
   #contme .profile {
     flex: 0 1 35%;
     padding: 15px;
-    /* background-color: white;
-    box-shadow: 0px 1px 4px gray; */
-
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
   }
   #contme .profile>img{
     height: 250px;
     padding: 15px;
-
   }
+
   #contme .description {
     text-transform:initial;
     flex: 1 0 65%;
@@ -97,8 +92,6 @@
     border-bottom: 1px solid gainsboro;
   }
   
- 
-  
   .red {
     background-color: #ed4c5c;
   }
@@ -116,9 +109,6 @@
     display: inline-block;
     margin: 0 5px;
   }
-  
-
-  
   
   @media screen and (max-width: 800px) {
     #contme {
@@ -146,153 +136,95 @@
     }
   }
   
-  
-  
-  
-  
   /**
-   * ==============================================
-   * Dot Floating
-   * ==============================================
-   */
-   .dot-floating {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: green;
-    color: #9880ff;
-    animation: dotFloating 6s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);
+ * ==============================================
+ * Dot Floating
+ * ==============================================
+ */
+ .dot-floating {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: #9880ff;
+  animation: dotFloating 6s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);
+}
+
+.dot-floating::before, .dot-floating::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-floating::before {
+  left: -12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #f5ff3a;
+  animation: dotFloatingBefore 3s infinite ease-in-out;
+}
+
+.dot-floating::after {
+  left: -24px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: #9880ff;
+  animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);
+}
+
+@keyframes dotFloating {
+  0% {
+    left: calc(-50% - 5px);
   }
-  
-  .dot-floating::before, .dot-floating::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 0;
+  75% {
+    left: calc(50% + 105px);
   }
-  
-  .dot-floating::before {
+  100% {
+    left: calc(50% + 300px);
+  }
+}
+
+@keyframes dotFloatingBefore {
+  0% {
+    left: -50px;
+  }
+  50% {
     left: -12px;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: #f5ff3a;
-    animation: dotFloatingBefore 3s infinite ease-in-out;
   }
-  
-  .dot-floating::after {
+  75% {
+    left: -50px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes dotFloatingAfter {
+  0% {
+    left: -100px;
+  }
+  50% {
     left: -24px;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: red;
-    color: #9880ff;
-    animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);
   }
-  
-  @keyframes dotFloating {
-    0% {
-      left: calc(-50% - 5px);
-    }
-    75% {
-      left: calc(50% + 105px);
-    }
-    100% {
-      left: calc(50% + 300px);
-    }
+  75% {
+    left: -100px;
   }
-  
-  @keyframes dotFloatingBefore {
-    0% {
-      left: -50px;
-    }
-    50% {
-      left: -12px;
-    }
-    75% {
-      left: -50px;
-    }
-    100% {
-      left: -50px;
-    }
+  100% {
+    left: -100px;
   }
-  
-  @keyframes dotFloatingAfter {
-    0% {
-      left: -100px;
-    }
-    50% {
-      left: -24px;
-    }
-    75% {
-      left: -100px;
-    }
-    100% {
-      left: -100px;
-    }
-  }
-    
-  
-  /*
-  Aanimation du titre 
-  */
-  
-  .animate-carac
-  {
-     text-transform: uppercase;
-     text-align: center;
-     margin-left: 280px;
-    background-image: linear-gradient(
-      -225deg,
-      white 0%,
-      yellow 29%,
-      green 67%,
-      red 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 4s linear infinite;
-    display: inline-block;
-        font-size: 70px;
-  }
-  
+}
+
   @keyframes textclip {
     to {
       background-position: 200% center;
     }
   }
-  
-  
-  
-  /*
-  Underline animation pour les titres
-  */
-  .animate-carac {
-    display: inline-block;
-    position: relative;
-    color: #0087ca;
-  }
-  
-  .animate-carac:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  
+
   .app-form-group {
     margin-bottom: 15px;
   }
@@ -354,7 +286,6 @@
       padding: 0;
     }
   }
-  
 
   /* Animation property */
 .app-form-button {
@@ -386,8 +317,6 @@
   }
 }
 
-
-
 .app-form-button { 
   height: 3.5em;
   width: 7em;
@@ -401,7 +330,6 @@
   cursor: pointer;
   background-color: white;
 }
-
   
 .app-form-button:hover {
   color: red;

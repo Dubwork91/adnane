@@ -5,8 +5,6 @@ export default function Scroll() {
   return (
     <div>
       <div  />
-
-      {/* 👇️ scroll to top on button click */}
       <button id='btn'
         onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });

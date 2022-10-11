@@ -3,8 +3,6 @@ import "./contact.css";
 import cont from "../../assets/images/logos/contactme.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import validator from 'validator'
-
 class Contact extends Component {
   componentDidMount(){
     Aos.init({duration:2000});
@@ -13,8 +11,6 @@ class Contact extends Component {
     
     return (
       <>
-
-
     <section id="contacts">
     <h3 class="animcar" data-aos="fade-down">Contact</h3>
           <section id="contme">
@@ -59,8 +55,6 @@ class Contact extends Component {
       </div>
     </section>
     </section>
-
-
       </>
     );
   }

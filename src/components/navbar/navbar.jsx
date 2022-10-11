@@ -14,10 +14,7 @@ export class NavBar extends Component {
             <a href="#experiences">Expérience</a>
             <a href="#contacts">Contact</a>
           </div>
-         
         </nav>
-
-        
       </>
     );
   }

@@ -18,7 +18,7 @@ class Projects extends Component {
     return (
       <>
         <section id="projects" >
-          <h2  class="animate-carac" data-aos="fade-down">Projets</h2>
+          <h2  class="animcar" data-aos="fade-down">Projets</h2>
           <div className="row" data-aos="fade-up">
             <div className="item" >
               <div>

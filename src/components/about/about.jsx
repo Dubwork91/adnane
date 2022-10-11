@@ -2,10 +2,7 @@ import { Component } from "react";
 import adn1 from "../../assets/images/adn.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-
 import "./style.css";
-
 class About extends Component {
 
   componentDidMount() {
@@ -14,9 +11,8 @@ class About extends Component {
   render() {
     return (
       <>
-
         <section id="about">
-          <h3 class="animate-carac" data-aos="fade-down"> Qui suis-je ?</h3>
+          <h3 class="animcar" data-aos="fade-down"> Qui suis-je ?</h3>
           <h2 data-aos="fade-up">En quelques lignes ...</h2>
           <div className="row">
             <div className="profile" data-aos="fade-right">

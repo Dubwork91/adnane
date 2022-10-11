@@ -1,10 +1,13 @@
+
+
 #about {
   padding: 65px 100px;
   padding-bottom: 10px;
   min-height: 70vh;
 }
 #about h3{
-  margin-top: 40px;
+  margin-left: 340px;
+    margin-top: 40px;
 }
 #about h2 {
   margin: auto;
@@ -47,24 +50,6 @@
 
 #about .desc-body {
   padding: 10px;
-}
-
-.red {
-  background-color: #ed4c5c;
-}
-.green {
-  background-color: #78b159;
-}
-
-.yellow {
-  background-color: #fdcb58;
-}
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0 5px;
 }
 
 #about .desc-body h3 {
@@ -132,9 +117,6 @@
     max-width: 100%;
   }
 }
-
-
-
 
 
 /**
@@ -218,39 +200,4 @@
   100% {
     left: -100px;
   }
-}
-  
-
-/*
-Aanimation du titre 
-*/
-
-
-
-
-/*
-Underline animation pour les titres
-*/
-.animate-carac {
-  display: inline-block;
-  position: relative;
-  color: #0087ca;
-}
-
-.animate-carac:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.animate-carac:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
 }

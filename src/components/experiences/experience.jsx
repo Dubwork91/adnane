@@ -12,12 +12,8 @@ class Experiences extends Component {
 			<>
 
 				<section id="experiences">
-					<h3 class="animate-carac" id="ex" data-aos="fade-down">Expériences</h3>
+					<h3 class="animcar" id="ex" data-aos="fade-down">Expériences</h3>
 				</section>
-
-
-
-
 
 				<ul class="timeline" data-aos="fade-up">
 
