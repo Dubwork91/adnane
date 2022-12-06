@@ -78,7 +78,7 @@ font-weight: bolder;
   #projects {
     padding: 20px 15px;
     min-height: 70vh;
-    background-color: #c7b95f;
+    background-color: white;
   }
 
   #projects .row {
