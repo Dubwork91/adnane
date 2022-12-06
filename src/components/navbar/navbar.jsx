@@ -8,10 +8,10 @@ export class NavBar extends Component {
       <>
         <nav>
           <div class="container teal borderYtoX" >
-            <a href="#about">Qui suis-je ?</a>
-            <a href="#projects">Projets</a>
-            <a href="#comp">Compétences</a>
-            <a href="#experiences">Expérience</a>
+            <a href="#about">Who am'i ?</a>
+            <a href="#projects">Projects</a>
+            <a href="#comp">Skills</a>
+            <a href="#experiences">Experience</a>
             <a href="#contacts">Contact</a>
           </div>
         </nav>

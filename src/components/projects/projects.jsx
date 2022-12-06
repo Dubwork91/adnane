@@ -24,7 +24,7 @@ class Projects extends Component {
               <div>
                 <img src={insta} alt="insta" />
                 <h3>Instagram Cloner</h3><br />
-                <p>Une interface qui génére le dark/light mode , avec le stockage des nombres de like et dislike</p>
+                <p>An interface that generates the dark/light mode, with the storage of like and dislike numbers</p>
               </div>
               <div className="item-links">
                 <div>
@@ -32,7 +32,7 @@ class Projects extends Component {
                     href="https://dubwork91.github.io/Instagram/"
                     target="_blank"
                   >
-                Exécution
+                Execution
                   </a>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ class Projects extends Component {
                     href="https://github.com/Dubwork91/Instagram"
                     target="_blank"
                   >
-                    Lien Github
+                   Github Link
                   </a>
                 </div>
               </div>
@@ -49,17 +49,17 @@ class Projects extends Component {
               <div>
                 <img src={bmi} alt="bmi" />
                 <h3>BMI-Calculator</h3><br />
-                <p>Une interface qui génére le BMI d'une personne , pour voir si elle est en bonne forme ou pas.</p>
+                <p>An interface that generates a person’s BMI, to see if they are in good shape or not.</p>
               </div>
               <div className="item-links">
                 <div>
                   <a href="https://dubwork91.github.io/BMI-Calculator/" target="_blank">
-                  Exécution
+                  Execution
                   </a>
                 </div>
                 <div>
                   <a href="https://github.com/Dubwork91/BMI-Calculator" target="_blank">
-                  Lien Github
+                 Github Link
                   </a>
                 </div>
               </div>
@@ -68,17 +68,17 @@ class Projects extends Component {
               <div>
                 <img src={todo} alt="todo" />
                <h3>Todo List</h3><br />
-                <p>Une interface sous genre de calendrier personnelle qui donne la main à l'utilisateur de mettre en place des notes.</p>
+                <p>An interface under kind of personal calendar that gives the user the hand to set up notes.</p>
               </div>
               <div className="item-links">
                 <div>
                   <a href="https://dubwork91.github.io/todolist/" target="_blank">
-                  Exécution
+                  Execution
                   </a>
                 </div>
                 <div>
                   <a href="https://github.com/Dubwork91/todolist" target="_blank">
-                  Lien Github
+                 Github Link
                   </a>
                 </div>
               </div>
@@ -89,8 +89,8 @@ class Projects extends Component {
           <div className="item">
               <div>
                 <img src={citation} alt="citation" />
-                <h3>Générateur de citations</h3><br />
-                <p>Une interface qui donne des citations aléatoires avec le nom de l'auteur , avec la couleur du background qui change aussi aléatoirement.</p>
+                <h3>Citation generator</h3><br />
+                <p>An interface that gives random quotes with the author’s name, with the color of the background that also changes randomly.</p>
               </div>
               <div className="item-links">
                 <div>
@@ -98,7 +98,7 @@ class Projects extends Component {
                     href="https://dubwork91.github.io/Citations/"
                     target="_blank"
                   >
-                Exécution
+                Execution
                   </a>
                 </div>
                 <div>
@@ -106,7 +106,7 @@ class Projects extends Component {
                     href="https://github.com/Dubwork91/Citations"
                     target="_blank"
                   >
-                    Lien Github
+                   Github Link
                   </a>
                 </div>
               </div>
@@ -115,8 +115,8 @@ class Projects extends Component {
             <div className="item">
               <div>
                 <img src={somme} alt="somme" />
-                <h3>Jeux de devinette</h3><br />
-                <p>Une interface qui donne un nombre aléatoire et permet à l'utilisateur de tenter sa chance trois fois pour voir s'il réussira à découvrire le nombre ou pas.</p>
+                <h3>Guessing games</h3><br />
+                <p>An interface that gives a random number and allows the user to try his luck three times to see if he will succeed in discovering the number or not.</p>
        
               </div>
               <div className="item-links">
@@ -125,7 +125,7 @@ class Projects extends Component {
                     href="https://dubwork91.github.io/Devinette/"
                     target="_blank"
                   >
-                Exécution
+                Execution
                   </a>
                 </div>
                 <div>
@@ -133,7 +133,7 @@ class Projects extends Component {
                     href="https://github.com/Dubwork91/Devinette"
                     target="_blank"
                   >
-                    Lien Github
+                   Github Link
                   </a>
                 </div>
               </div>
@@ -143,8 +143,8 @@ class Projects extends Component {
             <div className="item">
               <div>
                 <img src={devinette} alt="devinette" />
-                <h3>Les opérations mathématiques</h3><br />
-                <p>Un petit jeux de calcul qui génére des opérations mathématiques , afin d'auto évaluer son niveau. l'utilisateur à la main de donner le resultat.</p>
+                <h3>Mathematical operations</h3><br />
+                <p>A small calculation games that generate mathematical operations, in order to self evaluate its level. the user in hand to give the result.</p>
               </div>
               <div className="item-links">
                 <div>
@@ -152,7 +152,7 @@ class Projects extends Component {
                     href="https://dubwork91.github.io/Operateurs/"
                     target="_blank"
                   >
-                Exécution
+                Execution
                   </a>
                 </div>
                 <div>
@@ -160,14 +160,14 @@ class Projects extends Component {
                     href="https://github.com/Dubwork91/Operateurs"
                     target="_blank"
                   >
-                    Lien Github
+                   Github Link
                   </a>
                 </div>
               </div>
             </div>
 
           </div>
-        <a href="https://github.com/Dubwork91?tab=repositories" target="_blank" id="voirplus" >Voir plus de projets...</a>
+        <a href="https://github.com/Dubwork91?tab=repositories" target="_blank" id="voirplus" >View more projects...</a>
         </section>
       </>
     );

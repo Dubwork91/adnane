@@ -11,7 +11,7 @@ class Comp extends Component {
     return (
       <>
         <section id="comp">
-          <h3 class="animcar" data-aos="fade-down">Compétences</h3>
+          <h3 class="animcar" data-aos="fade-down">Skills</h3>
           <div className="row">
             <div className="profile" data-aos="fade-right">
               

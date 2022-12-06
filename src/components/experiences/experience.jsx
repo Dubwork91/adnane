@@ -12,7 +12,7 @@ class Experiences extends Component {
 			<>
 
 				<section id="experiences">
-					<h3 class="animcar" id="ex" data-aos="fade-down">Expériences</h3>
+					<h3 class="animcar" id="ex" data-aos="fade-down">Experiences</h3>
 				</section>
 
 				<ul class="timeline" data-aos="fade-up">
@@ -21,30 +21,30 @@ class Experiences extends Component {
 						<div class="direction-r" data-aos="fade-left">
 							<div class="flag-wrapper" >
 								<span class="flag">Full-Stack Boot-Camp</span>
-								<span class="time-wrapper" ><span class="time" 	>2022-Présent</span></span>
+								<span class="time-wrapper" ><span class="time" 	>2022-Now</span></span>
 							</div>
-							<div class="desc">Une formation avancée et accélérée en développement Full-Stack</div>
+							<div class="desc">Advanced and accelerated training in Full-Stack development</div>
 						</div>
 					</li>
 
 					<li>
 						<div class="direction-l" data-aos="fade-right">
 							<div class="flag-wrapper">
-								<span class="flag">Ingénieur Méthodes</span>
+								<span class="flag">Methods Engineer</span>
 								<span class="time-wrapper"><span class="time">2019-2022</span></span>
 							</div>
-							<div class="desc">Ingénieur en méthodes de maintenance ainsi que de production.</div>
+							<div class="desc">Engineer in maintenance and production methods.</div>
 						</div>
 					</li>
 
 					<li>
 						<div class="direction-r" data-aos="fade-left">
 							<div class="flag-wrapper">
-								<span class="flag">Chargé Clientèle</span>
+								<span class="flag">Customer Relations Manager</span>
 								<span class="time-wrapper"><span class="time">2014 - 2019</span></span>
 							</div>
 							<div class="desc">
-								En débutant ma carrière dans un rôle de chargé clientèle , et en enchaînant par la suite dans un rôle d'assistant plateau</div>
+							Starting my career as a Customer Relations Manager, then moving on to a Stage Assistant role.</div>
 						</div>
 					</li>
 

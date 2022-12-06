@@ -25,19 +25,19 @@ class Contact extends Component {
           </div>
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Votre Nom" />
+              <input class="app-form-control" placeholder="Your Name" />
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Adresse mail de contact"/>
+              <input class="app-form-control" placeholder="Contact Email Address"/>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="Numéro de contact"/>
+              <input class="app-form-control" placeholder="Contact Number"/>
             </div>
             <div class="app-form-group message">
               <input class="app-form-control" placeholder="Message"/>
             </div>
             <div class="app-form-group buttons">
-              <a href="https://dubwork91.github.io/adnane/"  ><button type="submit" class="app-form-button">Envoyer</button></a>
+              <a href="https://dubwork91.github.io/adnane/"  ><button type="submit" class="app-form-button">Send</button></a>
               
             </div>
           </div>

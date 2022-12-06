@@ -12,8 +12,8 @@ class About extends Component {
     return (
       <>
         <section id="about">
-          <h3 class="animcar" data-aos="fade-down"> Qui suis-je ?</h3>
-          <h2 data-aos="fade-up">En quelques lignes ...</h2>
+          <h3 class="animcar" data-aos="fade-down"> Who am'i ?</h3>
+          <h2 data-aos="fade-up"> In a few lines ...</h2>
           <div className="row">
             <div className="profile" data-aos="fade-right">
               <img src={adn1} alt="FENNIR Adnane" width="100%" />
@@ -33,11 +33,11 @@ class About extends Component {
                 </div>
               </div>
               <div className="desc-body">
-                <h3>Salut :)</h3>
+                <h3>Hello :)</h3>
                 <p>
-                  Je m'appelle Adnane , titulaire d'un diplôme d'ingénieur en automatisme et informatique industrielle.
-                  En débutant ma carrière dans un rôle de responsable maintenance , et en enchaînant par la suite dans un rôle d'ingénieur méthodes, J'ai décidé de me reconvertir vers un domaine qui me passionne depuis toujours.
-                  Mon aisance relationnelle, ma capacité d'écoute, mon sens de l'autonomie et de persévérance ont été les atouts qui m'ont permis d'atteindre mes objectifs. Mes expériences passées ont été enrichissante sur le plan personnelle et professionnelle, elle ont stimulées ma soif de challenge et d'innovation que je projette, comme une sorte d'évidence, à travers ma reconversion cible vers le métier de développeur fullstack.
+                  My name is Adnane and I have a degree in automation and industrial computing.
+                  I started my career as a maintenance manager, then as a method engineer, and I decided to move on to a field that I’ve always been passionate about.
+                  My interpersonal skills, my ability to listen, my sense of autonomy and my perseverance were the assets that enabled me to achieve my goals. My past experiences have been personally and professionally rewarding, they have stimulated my thirst for challenge and innovation that I anticipate, as a kind of proof, through my target conversion to the fullstack developer profession.
 
                 </p>
               </div>

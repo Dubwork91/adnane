@@ -22,16 +22,16 @@ class Footer extends Component {
             <div class="row">
               <ul>
                 <li><a href="#contacts">Contact me</a></li>
-                <li>  <a href="#about" >Qui suis-je ?</a></li>
-                <li> <a href="#projects">Projets</a></li>
-                <li>   <a href="#comp">Compétences</a></li>
-                <li><a href="#experiences">Expérience</a></li>
+                <li>  <a href="#about" >Who am'i ?</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li>   <a href="#comp">Skills</a></li>
+                <li><a href="#experiences">Experience</a></li>
 
               </ul>
             </div>
 
             <div class="row">
-              Dubwork91 Copyright © 2022  - Tous les droits sont réservés || Créer Par :
+              Dubwork91 Copyright © 2022  - All rights reserved || Create By:
             </div>
             <p class="start">
                 <span class="end1">F</span><span class="middle1">ENNIR.ADNAN</span>
