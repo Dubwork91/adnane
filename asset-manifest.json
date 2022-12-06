@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Dubwork91/adnane.git/static/css/main.ea075c7c.css",
-    "main.js": "/Dubwork91/adnane.git/static/js/main.eabc5ef3.js",
-    "static/media/p2.jpg": "/Dubwork91/adnane.git/static/media/p2.9608a3ecf0b8db11da9a.jpg",
-    "static/media/co1.jpg": "/Dubwork91/adnane.git/static/media/co1.717599d8b87a9d09d53b.jpg",
-    "static/media/adn.jpg": "/Dubwork91/adnane.git/static/media/adn.ea03e2e8652816d3cdbe.jpg",
-    "static/media/p6.jpg": "/Dubwork91/adnane.git/static/media/p6.f8f0dbdba5de4bc6bff2.jpg",
-    "static/media/p3.jpg": "/Dubwork91/adnane.git/static/media/p3.1ba5aab23effdc42c34c.jpg",
-    "static/media/p4.jpg": "/Dubwork91/adnane.git/static/media/p4.adae86bd1e9d8d264f36.jpg",
-    "static/media/bootstrap.png": "/Dubwork91/adnane.git/static/media/bootstrap.32c248432e2b86298964.png",
-    "static/media/contactme.png": "/Dubwork91/adnane.git/static/media/contactme.04d58b0101d4d178e7ca.png",
-    "static/media/p5.jpg": "/Dubwork91/adnane.git/static/media/p5.12c77ec3c8206e0eb21c.jpg",
-    "static/media/css.png": "/Dubwork91/adnane.git/static/media/css.5227db3affe64f13f0fa.png",
-    "static/media/p1.png": "/Dubwork91/adnane.git/static/media/p1.ce3cce6bfe9721233b88.png",
-    "static/media/js.png": "/Dubwork91/adnane.git/static/media/js.bb54340fef3a4c9fbb89.png",
-    "index.html": "/Dubwork91/adnane.git/index.html",
-    "main.ea075c7c.css.map": "/Dubwork91/adnane.git/static/css/main.ea075c7c.css.map",
-    "main.eabc5ef3.js.map": "/Dubwork91/adnane.git/static/js/main.eabc5ef3.js.map"
+    "main.css": "/adnane/static/css/main.4a9d6d68.css",
+    "main.js": "/adnane/static/js/main.e739d13f.js",
+    "static/media/p2.jpg": "/adnane/static/media/p2.9608a3ecf0b8db11da9a.jpg",
+    "static/media/co1.jpg": "/adnane/static/media/co1.717599d8b87a9d09d53b.jpg",
+    "static/media/adn.jpg": "/adnane/static/media/adn.ea03e2e8652816d3cdbe.jpg",
+    "static/media/p6.jpg": "/adnane/static/media/p6.f8f0dbdba5de4bc6bff2.jpg",
+    "static/media/p3.jpg": "/adnane/static/media/p3.1ba5aab23effdc42c34c.jpg",
+    "static/media/p4.jpg": "/adnane/static/media/p4.adae86bd1e9d8d264f36.jpg",
+    "static/media/bootstrap.png": "/adnane/static/media/bootstrap.32c248432e2b86298964.png",
+    "static/media/contactme.png": "/adnane/static/media/contactme.04d58b0101d4d178e7ca.png",
+    "static/media/p5.jpg": "/adnane/static/media/p5.12c77ec3c8206e0eb21c.jpg",
+    "static/media/css.png": "/adnane/static/media/css.5227db3affe64f13f0fa.png",
+    "static/media/p1.png": "/adnane/static/media/p1.ce3cce6bfe9721233b88.png",
+    "static/media/js.png": "/adnane/static/media/js.bb54340fef3a4c9fbb89.png",
+    "index.html": "/adnane/index.html",
+    "main.4a9d6d68.css.map": "/adnane/static/css/main.4a9d6d68.css.map",
+    "main.e739d13f.js.map": "/adnane/static/js/main.e739d13f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea075c7c.css",
-    "static/js/main.eabc5ef3.js"
+    "static/css/main.4a9d6d68.css",
+    "static/js/main.e739d13f.js"
   ]
 }
