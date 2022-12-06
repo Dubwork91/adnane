@@ -34,11 +34,11 @@ class Header extends Component {
 
           <TypeAnimation
             sequence={[
-              "Développeur FULL-STACK", // Types 'One'
+              "FULL-STACK Developer", // Types 'One'
               1000, // Waits 1s
-              "Ingénieur méthodes", // Deletes 'One' and types 'Two'
+              "Methods Engineer", // Deletes 'One' and types 'Two'
               2000, // Waits 2s
-              "Chargé clientèle", // Types 'Three' without deleting 'Two'
+              "Customer Relations Manager", // Types 'Three' without deleting 'Two'
               2000,
             ]}
             wrapper="p"
