@@ -12,7 +12,7 @@ class About extends Component {
     return (
       <>
         <section id="about">
-          <h3 class="animcar" data-aos="fade-down"> Who am'i ?</h3>
+          <h3 class="animcar" data-aos="fade-down">Get to know me?</h3>
           <h2 data-aos="fade-up"> In a few lines ...</h2>
           <div className="row">
             <div className="profile" data-aos="fade-right">
