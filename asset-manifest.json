@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adnane/static/css/main.4a9d6d68.css",
-    "main.js": "/adnane/static/js/main.bb45388c.js",
+    "main.css": "/adnane/static/css/main.09ff0a0a.css",
+    "main.js": "/adnane/static/js/main.ed148942.js",
     "static/media/p2.jpg": "/adnane/static/media/p2.9608a3ecf0b8db11da9a.jpg",
     "static/media/co1.jpg": "/adnane/static/media/co1.717599d8b87a9d09d53b.jpg",
     "static/media/adn.jpg": "/adnane/static/media/adn.ea03e2e8652816d3cdbe.jpg",
@@ -15,11 +15,11 @@
     "static/media/p1.png": "/adnane/static/media/p1.ce3cce6bfe9721233b88.png",
     "static/media/js.png": "/adnane/static/media/js.bb54340fef3a4c9fbb89.png",
     "index.html": "/adnane/index.html",
-    "main.4a9d6d68.css.map": "/adnane/static/css/main.4a9d6d68.css.map",
-    "main.bb45388c.js.map": "/adnane/static/js/main.bb45388c.js.map"
+    "main.09ff0a0a.css.map": "/adnane/static/css/main.09ff0a0a.css.map",
+    "main.ed148942.js.map": "/adnane/static/js/main.ed148942.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9d6d68.css",
-    "static/js/main.bb45388c.js"
+    "static/css/main.09ff0a0a.css",
+    "static/js/main.ed148942.js"
   ]
 }
